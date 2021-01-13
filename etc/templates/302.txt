@@ -1,0 +1,15 @@
+HTTP/1.1 302 Found
+Location: localhost:9090/error.php
+Content-Type: text/html
+Content-Length: 245
+
+<html>
+<head>
+<title>Moved</title>
+<meta http-equiv='refresh' content='0; URL=localhost:9090/error.php'>
+</head>
+<body>
+<h1>Moved</h1>
+<p>This page has moved to <a href="localhost:9090/error.php">localhost:9090/error.php</a>.</p>
+</body>
+</html>
