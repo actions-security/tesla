@@ -1,0 +1,16 @@
+name: tesla
+
+includes:
+  - {{ root }}/../commons/environment.devenv.yml
+
+dependencies:
+  - httptools==0.0.11
+  - modsecurity==3.0.2
+  - pymodsecurity=0.0.3
+  - elasticsearch==6.3.1
+
+environment:
+  PYTHONPATH:
+    - {{ root }}/tesla
+  PATH:
+    - {{ root }}/bin
