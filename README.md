@@ -23,13 +23,13 @@ $ git clone https://github.com/actions-security/tesla.git
 $ conda devenv
 ```
 
-Activate the environment
+3 - Activate the environment
 
 ```bash
 $ source activate tesla
 ```
 
-5 - Run
+4 - Run
 
 ```bash
 $ python tesla/cli.py
